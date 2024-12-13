@@ -5,7 +5,12 @@
     padding: 0;
 }
 body{
+    font-family: "Maven Pro";
     background-color: black;
+}
+
+ul {
+    list-style: none;
 }
 .items-center{
     align-items: center;
@@ -61,6 +66,9 @@ body{
     background-color: rgba(110,69,226,0);
     border: 1px solid #ffffff;
 }
+.wrapper {
+    padding: 0 15px;
+}
 .pricing-table{
     text-align: center;
     align-items: center;
@@ -72,7 +80,7 @@ body{
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    font-family: "Maven Pro";
+
 }
 .pricing-table h2{
     font-size: 86px;
@@ -132,3 +140,31 @@ body{
 .button img{
     align-items: center;
 }
+
+footer {
+    background-color: #fff;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.p-footer {
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: #37374a;
+    font-family: "Maven Pro";
+}
+
+.footer-ul a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #82828c;
+    transition: all 1s;
+}
+
+.footer-ul a:hover {
+    color: #756edc;
+}
+

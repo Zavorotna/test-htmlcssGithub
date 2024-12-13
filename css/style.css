@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +13,53 @@ body{
 .flex-between{
     display: flex;
     justify-content: space-between;
+}
+
+.header{
+    background-image: url(../img/Header\ Background.png);
+    padding-left: 50px;
+    font-family: "Maven Pro";
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.logo b{
+    font-size: 30px;
+    letter-spacing: 6px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 17px;
+}
+
+.up-menu{
+    justify-content: end;
+}
+
+.up-menu ul{
+    min-width: 560px;
+
+}
+
+.up-menu li{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.up-menu span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0.000;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(110,69,226,0);
+    border: 1px solid #ffffff;
 }
 .pricing-table{
     text-align: center;

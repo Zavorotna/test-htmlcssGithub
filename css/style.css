@@ -125,6 +125,10 @@ body{
     font-family: "Maven Pro";
     text-align: center;
 }
+.button a{
+    display: flex;
+    justify-content: center;
+}
 .button img{
     align-items: center;
 }

@@ -127,7 +127,7 @@ body{
 }
 .button a{
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 .button img{
     align-items: center;
@@ -164,8 +164,4 @@ body{
     font-weight: 500;
     font-family: "Maven Pro";
     text-align: center;
-}
-.card-1 li{
-    
-
 }

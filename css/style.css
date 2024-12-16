@@ -132,3 +132,40 @@ body{
 .button img{
     align-items: center;
 }
+.card-1{
+    text-align: center;
+    width: 440px;
+    height: 648px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #d7dbe8;
+}
+.card-1 img{
+    padding: 60px;  
+}
+.card-1 p{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #9fa4af;
+    font-weight: 700;
+    font-family: "Maven Pro";
+   
+}
+.card-1 span{
+    width: 302px;
+    height: 141px;
+    font-size: 20px;
+    letter-spacing: -2px;
+    line-height: 72px;
+    color: #4f4f6f;
+    font-weight: 500;
+    font-family: "Maven Pro";
+    text-align: center;
+}
+.card-1 li{
+    
+
+}

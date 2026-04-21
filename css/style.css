@@ -1,21 +1,29 @@
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: black;
 }
-.items-center{
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.items-center {
     align-items: center;
 }
-.flex-between{
+
+.flex-between {
     display: flex;
     justify-content: space-between;
 }
 
-.header{
+.header {
     background-image: url(../img/Header\ Background.png);
     padding-left: 50px;
     font-family: "Maven Pro";
@@ -23,7 +31,7 @@ body{
     padding-top: 50px;
 }
 
-.logo b{
+.logo b {
     font-size: 30px;
     letter-spacing: 6px;
     line-height: 29px;
@@ -32,22 +40,22 @@ body{
     padding-left: 17px;
 }
 
-.up-menu{
+.up-menu {
     justify-content: end;
 }
 
-.up-menu ul{
+.up-menu ul {
     min-width: 560px;
 
 }
 
-.up-menu li{
+.up-menu li {
     font-size: 16px;
     line-height: 19px;
     font-weight: 500;
 }
 
-.up-menu span{
+.up-menu span {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 32px;
@@ -58,14 +66,16 @@ body{
     width: 150px;
     height: 50px;
     border-radius: 25px;
-    background-color: rgba(110,69,226,0);
+    background-color: rgba(110, 69, 226, 0);
     border: 1px solid #ffffff;
 }
-.pricing-table{
+
+.pricing-table {
     text-align: center;
     align-items: center;
 }
-.pricing-table p{
+
+.pricing-table p {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 32px;
@@ -74,7 +84,8 @@ body{
     font-weight: 700;
     font-family: "Maven Pro";
 }
-.pricing-table h2{
+
+.pricing-table h2 {
     font-size: 86px;
     letter-spacing: -3px;
     line-height: 72px;
@@ -84,10 +95,12 @@ body{
     text-align: center;
     padding: 20px 0;
 }
-.pricing-table ul{
+
+.pricing-table ul {
     text-decoration: none;
 }
-.pricing-table li{
+
+.pricing-table li {
     font-size: 16px;
     line-height: 28px;
     color: #ffffff;
@@ -95,7 +108,8 @@ body{
     font-family: "Maven Pro";
     text-align: center;
 }
-.social{
+
+.social {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 32px;
@@ -105,7 +119,8 @@ body{
     font-family: "Maven Pro";
     text-align: center;
 }
-.social h2{
+
+.social h2 {
     font-size: 60px;
     line-height: 72px;
     color: #4f4f6f;
@@ -114,10 +129,12 @@ body{
     text-align: center;
     padding: 20px 0;
 }
-.social ul{
+
+.social ul {
     text-decoration: none;
 }
-.social li{
+
+.social li {
     font-size: 16px;
     line-height: 28px;
     color: #9fa4af;
@@ -125,36 +142,44 @@ body{
     font-family: "Maven Pro";
     text-align: center;
 }
-.button a{
+
+.button a {
     display: flex;
     justify-content: center
 }
-.button img{
+
+.button img {
     align-items: center;
 }
-.card-1{
+
+.card-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
     text-align: center;
     width: 440px;
     height: 648px;
     border-radius: 30px;
-    background-color: #ffffff;
-    border: 1px solid #d7dbe8;
+    background-color: red;
+    border: 1px solid pink;
 }
-.card-1 img{
-    padding: 60px;  
+
+.card-1 img {
+    padding: 60px;
 }
-.card-1 p{
+
+.card-1 p {
     text-align: center;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #9fa4af;
+    color: blue;
     font-weight: 700;
     font-family: "Maven Pro";
-   
+
 }
-.card-1 span{
+
+.card-1 span {
     width: 302px;
     height: 141px;
     font-size: 20px;
@@ -164,6 +189,10 @@ body{
     font-weight: 500;
     font-family: "Maven Pro";
     text-align: center;
+}
+.text{
+    background-color: violet;
+    color: white;
 }
 
 

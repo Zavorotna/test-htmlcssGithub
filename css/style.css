@@ -194,3 +194,17 @@ body {
     background-color: violet;
     color: white;
 }
+
+
+.Sasha_p {
+    color: red;
+    background-color: white;
+    font-size: 25px;
+}
+
+.Sasha_h2 {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
